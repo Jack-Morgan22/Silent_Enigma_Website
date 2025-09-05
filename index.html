@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silent Enigma - Game Development Studio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- AOS (Animate on Scroll) Library CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Our Custom Stylesheets -->
+  <link rel="stylesheet" href="Stylesheets/global.css">
+  <link rel="stylesheet" href="Stylesheets/landing_page.css">
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<!-- Hero Section -->
+<header class="hero">
+  <img src="Images/Silent_Enigma_Logo.png" alt="Silent Enigma Logo" class="hero-logo" data-aos="fade-down" data-aos-duration="1500">
+  <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">Building Experiences, One Puzzle at a Time.</h1>
+  <a href="#join" class="cta-button" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">Join The Enigma</a>
+</header>
+
+<main>
+  <!-- The Vision Section -->
+  <section id="vision">
+    <div class="container" data-aos="fade-up">
+      <h2>Our Vision</h2>
+      <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+        At Silent Enigma, we believe games should be meaningful experiences, crafted with intention, creativity, and care.
+        We move away from bloated open worlds filled with repetitive tasks, and instead focus on creating adventures that are fun, purposeful, and rewarding. Our goal is to tell stories that resonate while challenging players with puzzles and gameplay that excite, surprise, and inspire.
+      </p>
+    </div>
+  </section>
+
+  <!-- Project Teaser Section
+  <section id="project">
+    <div class="container" data-aos="fade-up">
+      <h2>Our First Journey</h2>
+      <h3>[ Codename: Project Umbra ]</h3>
+      <p class="project-description">
+        We are in the early stages of our debut title—a story-driven action game set in a world shrouded in perpetual twilight. Players will navigate a land of forgotten gods and ancient secrets, where every shadow holds a new truth and every choice shapes the dawn. We're building this world in <strong>Unity</strong>, and we need your help to bring it to life.
+      </p>
+    </div>
+  </section>
+  -->
+
+  <!-- Recruiting Section -->
+  <section id="recruiting">
+    <div class="container" data-aos="fade-up">
+      <h2>We Are Recruiting</h2>
+      <div class="roles-grid">
+        <!-- Cards for roles -->
+        <div class="role-card" data-aos="fade-up" data-aos-delay="100">
+          <svg viewBox="0 0 24 24"><path d="M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M13.96,12.29L11.21,15.83L9.25,13.47L6.5,17H17.5L13.96,12.29Z" /></svg>
+          <h3>Art & Design</h3>
+          <p>Concept Artists, 3D Modelers (Characters & Environments), Animators, and UI/UX Designers to define the visual soul of our world.</p>
+        </div>
+        <div class="role-card" data-aos="fade-up" data-aos-delay="200">
+          <svg viewBox="0 0 24 24"><path d="M12.89,3L14.85,3.4L11.11,21L9.15,20.6L12.89,3M19.59,12L16,8.41V5.58L22.42,12L16,18.41V15.58L19.59,12M1.58,12L8,5.58V8.41L4.41,12L8,15.58V18.41L1.58,12Z" /></svg>
+          <h3>Development</h3>
+          <p>Unity Developers (C#) passionate about gameplay mechanics, AI programming, and system architecture to build the game's foundation.</p>
+        </div>
+        <div class="role-card" data-aos="fade-up" data-aos-delay="300">
+          <svg viewBox="0 0 24 24"><path d="M12,3V13.55C11.41,13.21 10.73,13 10,13C7.79,13 6,14.79 6,17S7.79,21 10,21 14,19.21 14,17V7H18V3H12Z" /></svg>
+          <h3>Sound & Music</h3>
+          <p>Sound Designers and Composers to create an atmospheric and impactful audio experience, from haunting melodies to visceral combat sounds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Join Us Section -->
+  <section id="why-join">
+    <div class="container" data-aos="fade-up">
+      <h2>Why Join The Enigma?</h2>
+      <div class="benefits-grid">
+        <div class="benefit-item" data-aos="fade-right">
+          <div class="icon">🚀</div>
+          <div>
+            <h3>Be A Founder</h3>
+            <p>This is more than a role; it's a chance to be a foundational member of a new studio and shape its culture and future from day one.</p>
+          </div>
+        </div>
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="100">
+          <div class="icon">🎨</div>
+          <div>
+            <h3>Creative Freedom</h3>
+            <p>As a volunteer-driven startup, your voice and ideas will directly influence the project. We thrive on collaboration and innovation.</p>
+          </div>
+        </div>
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="200">
+          <div class="icon">📁</div>
+          <div>
+            <h3>Build Your Portfolio</h3>
+            <p>Gain invaluable hands-on experience working on a full-scale game project. Create incredible work to showcase your skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Form Section -->
+  <section id="join">
+    <div class="container" data-aos="fade-up">
+      <h2>Begin Your Journey</h2>
+      <form class="join-form" action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="role">Desired Role</label>
+          <select id="role" name="role" required>
+            <option value="">-- Select a role --</option>
+            <option value="art-design">Art & Design</option>
+            <option value="development">Development (Unity)</option>
+            <option value="sound-music">Sound & Music</option>
+            <option value="writing">Writing / Narrative Design</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="portfolio">Portfolio/Website Link</label>
+          <input type="url" id="portfolio" name="portfolio" placeholder="https://yourwork.com" required>
+        </div>
+        <button type="submit" class="submit-btn">Submit Application</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 Silent Enigma. All Rights Reserved.</p>
+</footer>
+
+<!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Our Custom Script -->
+<script src="JavaScripts/script.js"></script>
+</body>
+</html>
